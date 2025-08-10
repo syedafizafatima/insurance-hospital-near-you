@@ -33,23 +33,29 @@ pip install selenium googlemaps pandas
 ## ⚙️ Setup
 
 1️⃣ **Clone the repository**  
-git clone https://github.com/syedafizafatima/insurance-hospital-near-you.git  
-cd insurance-hospital-finder  
+```git clone https://github.com/syedafizafatima/insurance-hospital-near-you.git  
+cd insurance-hospital-finder
+```
 
 2️⃣ **Add your Google Maps API Key**  
+```
 Open main() in the script and replace:  
 GOOGLE_MAPS_API_KEY = 'Add key'  
 with your actual API key.  
+```
 
-3️⃣ **Set your reference location**  
+3️⃣ **Set your reference location** 
+``` 
 Replace REFERENCE_LOCATION in the script with your location or Plus Code:  
 REFERENCE_LOCATION = "8FV5+HPG Hyderabad, Telangana"  
-
+```
 ---
 
 ## ▶️ Usage
+```
 Run the script:  
 python hospital_finder.py  
+```
 
 The script will:  
 - Open the FHPL hospitals portal.  
